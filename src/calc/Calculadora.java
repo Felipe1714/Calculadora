@@ -2,7 +2,7 @@ package calc;
 
 public class Calculadora {
 	
-	// Versão 1.0.0
+	// Versão 2.0.0
 
 	public static void main(String[] args) {
 
@@ -27,27 +27,28 @@ public class Calculadora {
 		System.out.println("Resultado da Divisão (32 / 8)");
 		System.out.println(resultado);
 		System.out.println();
+		
 	}
 
-	public double Somar(double param1, double param2){
+	public double Somar(double param1, param2){
 
 		return param1 + param2;
 
 	}
 
-	public double Subtrair(double param1, double param2){
+	public double Subtrair(double param1, param2){
 
 		return param1 - param2;
 
 	}
 
-	public double Multiplicar(double param1, double  param2){
+	public double Multiplicar(double param1, param2){
 
 		return param1 * param2;
 
 	}
 
-	public double Dividir(double param1, double param2){
+	public double Dividir(double param1, param2){
 
 		return param1 / param2;
 
